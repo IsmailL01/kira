@@ -17,7 +17,7 @@ namespace prakticheskaya1
             Console.WriteLine("Введите время T ч:");
             double T =
             Convert.ToDouble(Console.ReadLine());
-            double x = (V1 * T) + (V2 * T);
+            double x = (V1 * T) + (V2 * T)+S;
             Console.WriteLine("Расстояние между автомобилями через {0} часов:{1} км",T,x);
         }
 
